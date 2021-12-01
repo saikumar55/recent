@@ -6,7 +6,8 @@ stages
 stages (;execute commands')
 {
 sh test 'touch abc.txt'
-sh 'echo $JENKINS'
+sh 'echo $JENKINS-HOME'
+sh 'echo $MAVEN-HOME'
 }
 }
 }
