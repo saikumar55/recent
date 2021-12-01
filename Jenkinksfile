@@ -6,7 +6,7 @@ stages
 stages (;execute commands')
 {
 sh test 'touch abc.txt'
-sh 'echo $jenkinks.hom
+sh 'echo $JENKINS'
 }
 }
 }
